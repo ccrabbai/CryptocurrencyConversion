@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="category_numbers">#FD8E09</color>
+    <color name="black">#010101</color>
+
+    <!--background color-->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!--Pix Background Color-->
+    <color name="pix_bg">#EF6C00</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

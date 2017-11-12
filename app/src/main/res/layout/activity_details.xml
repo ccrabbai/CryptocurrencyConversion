@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context=".DetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/which_currency"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:text="@string/tool_text"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:fontFamily="georgia"
+            />
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/conversion_screen"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/per_bitcoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    android:text="@string/default_amount"
+                    android:fontFamily="georgia"
+                    />
+
+                <TextView
+                    android:id="@+id/bitcoin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    android:text="@string/bitcoin"
+                    android:fontFamily="georgia"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/default_text_View"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#fff"
+                android:textAllCaps="true"
+                android:text="@string/is_equivalent"
+                android:fontFamily="georgia"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/currrency_real_symbol_bit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    tools:text="$"
+                    android:fontFamily="georgia"
+                    />
+
+                <TextView
+                    android:id="@+id/currrency_equivalent_bit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    tools:text="454.23"
+                    android:fontFamily="georgia"
+                    />
+
+            </LinearLayout>
+
+            <!--for eth-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/per_eth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    android:text="@string/default_amount"
+                    android:fontFamily="georgia"
+                    />
+
+                <TextView
+                    android:id="@+id/eth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    android:text="@string/ethereum"
+                    android:fontFamily="georgia"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/default_text_View_eth"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#fff"
+                android:textAllCaps="true"
+                android:text="@string/is_equivalent"
+                android:fontFamily="georgia"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/currrency_real_symbol_eth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    tools:text="$"
+                    android:fontFamily="georgia"
+                    />
+
+                <TextView
+                    android:id="@+id/currrency_equivalent_eth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    tools:text="454.23"
+                    android:fontFamily="georgia"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/input_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_hint"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:gravity="center"
+                android:fontFamily="georgia"
+                />
+
+            <!-- Amount field -->
+            <EditText
+                android:id="@+id/enterBit_Eth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_amount"
+                android:inputType="textCapWords"
+                android:fontFamily="georgia"
+                />
+
+            <Button
+                android:id="@+id/convertAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/convert"
+                android:background="@drawable/conversion_screen"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_marginTop="16dp"
+                android:fontFamily="georgia"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

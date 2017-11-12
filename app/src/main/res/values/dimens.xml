@@ -1,0 +1,6 @@
+<resources>
+    <!--height of each list item-->
+    <dimen name="list_item_height">65dp</dimen>
+
+    <!--default screen margins, per the Android Design guidelines-->
+</resources>

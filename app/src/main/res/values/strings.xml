@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cryptocurrency Converter</string>
+    <string name="detailActivity_name">Conversion Details</string>
+
+    <string name="hint_amount">Enter Amount(Bitcoin/Ethereum)</string>
+    <string name="note_one">Converting Bitcoin &amp; Ethereum\n to other currencies</string>
+    <string name="show_hint">Enter the amount of bitcoin you want to convert to the base currency</string>
+    <string name="tool_text">Conversion to Canadian Dollar</string>
+    <string name="bitcoin"> Bitcoin</string>
+    <string name="ethereum"> Ethereum</string>
+    <string name="default_amount">1</string>
+    <string name="is_equivalent">is equivalent to</string>
+    <string name="convert">Convert</string>
+    <!--Empty View-->
+    <!-- Subtitle text for the empty view -->
+    <string name="empty_view_subtitle">Loading..., please wait</string>
+</resources>
